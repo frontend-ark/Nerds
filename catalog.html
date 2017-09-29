@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Nёrd's</title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a class="logo" href="#">
+					<img src="img/logo.png" width="160" height="65" alt="логотип nёrd's">
+				</a>
+				<ul class="navigation">
+					<li><a href="#">студия</a></li>
+					<li><a href="#">клиенты</a></li>
+					<li><a href="nerds-catalog.html">магазин</a></li>
+					<li><a href="#">контакты</a></li>
+				</ul>
+				<div class="basket">
+					<a href="#">корзина</a>
+				</div>
+			</nav>
+			<h1 class="name">Магазин готовых шаблонов</h1>
+		</header>
+		<main>
+			<section class="filters">
+				<h2 class="visually-hidden">Фильтр шаблонов</h2>
+				<form method="get" action="#">
+					<fieldset class="price">
+						<legend>Стоимость:</legend>
+						<label class="visually-hidden" for="prise-range">Диапазон цен</label>
+						<input id="prise-range" type="range" min="0" max="15000" step="2" value="2500">
+						<label for="min">От</label>
+						<input id="min" class="price-min" type="text" name="сost-of-the-hotel-min" value="от 0">
+						<label for="max">До</label>
+						<input id="max" class="price-max" type="text" name="сost-of-the-hotel-max" value="до 15000">
+					</fieldset>
+					<fieldset class="grid">
+						<legend>Сетка:</legend>
+						<ul>
+							<li>
+								<input type="radio" name="view" id="adaptive" checked>
+								<label for="adaptive">Адаптивная</label>
+							</li>
+							<li>
+								<input type="radio" name="view" id="fixed">
+								<label for="fixed">Фиксированная</label>
+							</li>
+							<li>
+								<input type="radio" name="view" id="rubber">
+								<label for="rubber">Резиновая</label>
+						  </li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Оссобенности:</legend>
+						<ul>
+							<li>
+								<input type="checkbox" name="details" id="choose-slider" checked>
+								<label for="choose-slider">Слайдер</label>
+							</li>
+							<li>
+								<input type="checkbox" name="details" id="choose-advantage-block">
+								<label for="choose-advantage-block">Блок преимуществ</label>
+							</li>
+							<li>
+								<input type="checkbox" name="details" id="choose-news" checked>
+								<label for="choose-news">Новости</label>
+							</li>
+							<li>
+								<input type="checkbox" name="details" id="choose-gallery">
+								<label for="choose-allery">Галерея</label>
+							</li>
+							<li>
+								<input type="checkbox" name="details" id="choose-basket">
+								<label for="choose-basket">Корзина</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button type="submit" class="filters-button">Показать</button>
+				</form>
+			</section>
+			<section class="sorting">
+				<h2 class="visually-hidden">Выберите как отсортировать полученные результаты</h2>
+				<p>Сортировать:</p>
+				<ul>
+					<li><a href="#" class="active">по цене</a></li>
+					<li><a href="#">по типу</a></li>
+					<li><a href="#">по названию</a></li>
+				</ul>
+				<a href="#">стрелка вниз</a>
+				<a href="#">стрелка вверх</a>
+			</section>
+			<section class="catalog">
+				<div class="wrapper-sedona">
+					<div class="sedona">
+						<h3>Sedona</h3>
+						<p>Информационный сайт для туристов</p>
+						<a href="#">9 900 РУБ.</a>
+					</div>
+				</div>
+				<div class="wrapper-pink">
+				</div>
+				<div class="wrapper-barbershop">
+				</div>
+				<div class="wrapper-mishka">
+				</div>
+				<div class="wrapper-books">
+				</div>
+				<div class="wrapper-kvast">
+				</div>
+				<ul class="pagination-list">
+					<li class="active"><a href="#">1</a></li>
+					<li><a>2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">следующая</a></li>
+				</ul>
+			</section>
+			<section class="contacts">
+				<h4>Nёrds design studio</h4>
+				<p>191186, Санкт-Петербург,<br>ул. Б.Конюшенная, д. 19/8</p>
+				<p>тел. +7(812)275-75-75</p>
+				<a href="#">Напишите нам</a>
+			</section>
+		</main>
+		<footer>
+			<ul class="social">
+				<li><a href="#">Vkontakte</a></li>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Instagram</a></li>
+			</ul>
+			<h3>Давайте дружить, это выгодно!</h3>
+			<p>Скидка 10% для друзей из социальный сетей.</p>
+		</footer>
+	</body>
+</html>
+
+
